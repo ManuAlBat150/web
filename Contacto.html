@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,0">
+        <meta name="name" content="Contacto">
+        <meta name="description" content="Pagina de contacto.">
+        <meta name="author" content="Manuel Alhajas">
+
+        <title>Contacto</title>
+        <link rel="icon" href="imagenes/logoInstagram.png">
+        <link rel="stylesheet" href="estilos/estilos.css">
+
+    </head>
+
+    <body>
+        <!--BARRA DE NAVEGACIÓN----------->
+        <nav>
+            <a href="Home.html">
+            <img src="imagenes/imagotipo.png" alt="" width="150px"></a>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Quien_soy.html">Quien soy</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a class="pag-actual" href="Contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+        <!--CABECERA---------------------->
+        <header>
+            <img class="banner" src="imagenes/contacto.webp" alt="800px" width="1000px">
+            <h1 class="titulo-cabecera">CONTACTO</h1>
+        </header>
+
+        <!--CONTENIDO---------------------->
+        <main>
+            <section class="sec-form">
+            <h2>Mantente informado</h2>
+            <form action="gracias.html" method="GET">
+                <label>
+                    Nombre
+                    <input class="form-texto" type="text" name="nombre" placeholder="Manuel">
+                </label>
+                <br><br>
+                <label>
+                    Email *
+                    <input class="form-texto" type="email" name="correo" placeholder="nombre@email.com" required>
+                </label>
+                <br><br>
+                    <label>
+                        Aceptar <a href="privacidad.html">política de privacidad</a> *
+                    </label>
+                    <label>
+                    <input id="caja-tick" type="checkbox" name="privacidad" required>
+                    <br><br>
+                    <input id="btn-mandar" type="submit">
+
+                </label>
+            </form>
+            </section>
+            
+            </section>
+        </main>
+
+        <!--PIE DE PÁGINA----------------->
+        <footer>
+            <p>Copyright 2024 &copy; Manuel Alhajas Fotógrafo</p>
+            <p>Términos de uso</p><p>Política de Cookies</p>
+        </footer>
+    </body>
+</html>              

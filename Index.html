@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,0">
+        <meta name="name" content="Home">
+        <meta name="description" content="Pagina principal.">
+        <meta name="author" content="Manuel Alhajas">
+
+        <title>Home</title>
+        <link rel="icon" href="imagenes/logoInstagram.png">
+        <link rel="stylesheet" href="estilos/estilos.css">
+
+    </head>
+
+    <body>
+        <!--BARRA DE NAVEGACIÓN----------->
+        <nav>
+            <a href="Home.html">
+                <img src= "imagenes/imagotipo.png" alt="" width="150px">
+            </a>            
+            <ul>
+                <li><a class="pag-actual" href="Home.html">Home</a></li>
+                <li><a href="Quien_soy.html">Quien soy</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!--CABECERA---------------------->
+        <header>
+            
+            <video class="video-promocional" controls src="videos/ModaMaf.mp4" loop></video>
+            <h1 class="titulo-cabecera">MANUEL ALHAJAS FOTÓGRAFO</h1>
+            
+            <div>
+                
+                
+                <a href="Servicios.html">
+                <button class="btn-vacio">SERVICIOS</button></a>
+            </div>
+        </header>
+
+        <!--CONTENIDO--------------------->
+        <main>
+            <section class="sec-texto">
+                <section class="sec-tarjeta">
+
+                    <div class="tarjeta">
+                        <img src="imagenes/Manuel.webp" alt="">
+                        <h3>Manuel Alhajas</h3>
+                        <h4>CEO de MAF</h4>
+                        <p>Me llamo Manuel Alhajas y soy de Zaragoza. Llevo 12 años como fotógrafo profesional
+                        en sesiones de fotos, eventos, bodas, trabajando para empresas...; siempre con profesionalidad.</p>
+                        <a href="Quien_soy.html">Conóceme</a>
+                    </div>
+            
+           
+            </p></div>
+            <br><br>
+            <p>
+            <h3>Últimas publicaciones</h3>
+            <section>
+             <id=></id>
+                <img class="Carrusel"id="imagen0" src="imagenes/EncuentrosCiencia.webp" alt="Encuentros con la ciencia: Disfrutando con la musica">
+                <img class="Carrusel"id="imagen1" src="imagenes/Imagen_iman.webp" alt="Carnaval Iman pub">
+                <img class="Carrusel"id="imagen2" src="imagenes/ExtraterrestesIman.webp" alt="Carnaval Iman pub">
+                <img class="Carrusel"id="imagen3" src="imagenes/Skandalo.webp" alt="Inauguración nueva ubiacación">
+        
+                <div>
+                    <button onclick="anterior()">&larr;</button>
+                    <button id="btn-pausa" onclick="pausarCarrusel()">Pausa</button>
+                    <button onclick="siguiente()">&rarr;</button>
+                </div>
+            </p>
+            
+            </section>
+        
+        
+            <script src="scripts/carrusel.js"></script> 
+        
+        </main>
+          
+        <!--PIE DE PÁGINA----------------->
+        <footer>
+            <p>Copyright 2024 &copy; Manuel Alhajas Fotógrafo</p>
+            <p>Términos de uso</p><p>Política de Cookies</p>
+        </footer>
+    </body>
+</html>        
+
